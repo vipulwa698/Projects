@@ -1,4 +1,4 @@
-package com.example.journalApp.Controllers;
+/*package com.example.journalApp.Controllers;
 
 import com.example.journalApp.Entity.JournalEntry;
 import org.springframework.web.bind.annotation.*;
@@ -26,7 +26,7 @@ public class JournalEntryController {
     }
 
     @GetMapping("id/{myId}")
-    public JournalEntry getEntryById(@PathVariable long myId){
+    public JournalEntry getEntryById(@PathVariable String myId){
         return journalEntries.get(myId);
     }
 
@@ -40,3 +40,4 @@ public class JournalEntryController {
         return journalEntries.put(myId, entry);
     }
 }
+*/
